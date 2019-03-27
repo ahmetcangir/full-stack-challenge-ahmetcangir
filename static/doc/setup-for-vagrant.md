@@ -3,8 +3,8 @@
 A Vagrant-based environment is the preferred way to replicate the coding challenge environment on your system. It is relatively easy to install, especially when compared with installing all the different software components one-by-one, directly on your System.
 
 To get started, go ahead and install these tools:
-1. [Virtualbox](https://www.vagrantup.com/)
-2. [Vagrant](https://www.virtualbox.org/wiki/Downloads "VirtualBox") 
+1. [Virtualbox](https://www.virtualbox.org/wiki/Downloads "VirtualBox")
+2. [Vagrant](https://www.vagrantup.com/) 
 
 ## Setup
 
