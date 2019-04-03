@@ -1,0 +1,16 @@
+{% extends "_base.html" %}
+{% block content %}
+
+<div class="body-content">
+  <div>
+    <h2>Search results for "{{ query }}"</h2>
+    <hr><br>
+      {% for item in results.results %}
+        {% for item in item.media %}
+          <img src="{{ item.gif.url }}" class="img-thumbnail">
+        {% endfor %}
+      {% endfor %}
+  </div>
+</div>
+
+{% endblock %}
