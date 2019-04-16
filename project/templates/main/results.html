@@ -5,11 +5,20 @@
   <div>
     <h2>Search results for "{{ query }}"</h2>
     <hr><br>
-      {% for item in results.results %}
-        {% for item in item.media %}
-          <img src="{{ item.gif.url }}" class="img-thumbnail">
-        {% endfor %}
-      {% endfor %}
+    <div class="album">
+      <div class="container">
+        <div class="row">
+          {% for item in results.results %}
+            {% for item in item.media %}
+              <div class="col-md-4">
+                  <div class="card mb-4 box-shadow" style="height:200px;background:url('{{ item.gif.url }}')">
+                  </div>
+                </div>
+            {% endfor %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
